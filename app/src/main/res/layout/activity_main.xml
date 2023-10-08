@@ -7,19 +7,28 @@
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"/>
+
+
     <EditText
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
-        android:background="#10000000"
+        android:textColorHint="@color/teal_200"
         android:ems="13"
         android:drawableLeft="@drawable/ic_email_24"
         android:hint="Masukan Email"
+        android:backgroundTint="@color/teal_200"
         android:inputType="textEmailAddress"
         android:textSize="20dp"
-        android:textColor="#ffffff"
         tools:ignore="MissingConstraints" />
     // android:layout_above="@+id/pass"
 
@@ -29,10 +38,11 @@
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="350dp"
-        android:background="#10000000"
+        android:textColorHint="@color/teal_200"
         android:ems="13"
         android:drawableLeft="@drawable/ic_key_24"
         android:hint="Masukan Password"
+        android:backgroundTint="@color/teal_200"
         android:inputType="textPassword"
         android:textSize="20dp"
         android:textColor="@color/white"
