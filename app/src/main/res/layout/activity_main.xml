@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#10000000"
+        android:ems="13"
+        android:drawableLeft="@drawable/ic_email_24"
+        android:hint="Masukan Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        tools:ignore="MissingConstraints" />
+    // android:layout_above="@+id/pass"
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="#10000000"
+        android:ems="13"
+        android:drawableLeft="@drawable/ic_key_24"
+        android:hint="Masukan Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:layout_marginTop="450dp"
+        android:text="Login"
+        android:ems="13"
+        android:background="@color/teal_200"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+
+        />
+
+
+</RelativeLayout>
